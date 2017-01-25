@@ -9,6 +9,7 @@
 	{
 		public:
 		RF433(int RXPIN);
+		bool data_OK;
 	    //bool received;
 		bool received();
 		float getTemperature();
